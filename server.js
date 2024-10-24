@@ -16,7 +16,7 @@ app.use(express.json())
 app.use(cors({}));
 
 app.get ("/",(req,res)=>{
-    res.status(200).send("welcome to api RAMESH,enter these links on search bar for sample results =>  https://recipes-crud-backend.onrender.com/api/recipe/getrecipe/671a60e2a53f7f1a38dd996e")
+    res.status(200).send("welcome to api RAMESH,enter these links on search bar for sample results getdat by id =>  https://recipes-crud-backend.onrender.com/api/recipe/getrecipe/671a60e2a53f7f1a38dd996e, Thankyou")
     
 })
 
